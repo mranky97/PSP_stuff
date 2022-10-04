@@ -1,0 +1,1 @@
+/home/ankur/pspdev/bin/psp-gcc -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0 -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -Wl,-zmax-page-size=128 CMakeFiles/hello.dir/main.c.obj -o hello  -lpspdebug -lpspdisplay -lpspge 

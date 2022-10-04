@@ -1,0 +1,606 @@
+The target system is: Generic - 1 - mips
+The host system is: Linux - 5.15.0-48-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/ankur/pspdev/bin/psp-gcc 
+Build flags: -I/home/ankur/pspdev/psp/include;-I/home/ankur/pspdev/psp/sdk/include;-DPSP;-O2;-G0
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/ankur/pspdev/bin/psp-g++ 
+Build flags: -I/home/ankur/pspdev/psp/include;-I/home/ankur/pspdev/psp/sdk/include;-DPSP;-O2;-G0
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b305/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b305.dir/build.make CMakeFiles/cmTC_6b305.dir/build
+gmake[1]: Entering directory '/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj
+/home/ankur/pspdev/bin/psp-gcc -DPSP -D__PSP__  -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0    -v -o CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-gcc
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_6b305.dir/'
+ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/cc1 -quiet -v -I /home/ankur/pspdev/psp/include -I /home/ankur/pspdev/psp/sdk/include -iprefix /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/ -DPSP=1 -D__PSP__=1 -D_PSP=1 -D__psp__=1 -D PSP -D __PSP__ -D PSP /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -G 0 -quiet -dumpdir CMakeFiles/cmTC_6b305.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mhard-float -msingle-float -O2 -version -o /tmp/ccNvC6DT.s
+GNU C17 (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/sys-include"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include-fixed"
+ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/sys-include"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include"
+ignoring duplicate directory "/home/ankur/pspdev/psp/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ankur/pspdev/psp/sdk/include
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 154afed43caae206d6aca2cf9e425fb0
+COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_6b305.dir/'
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/as -G 0 -EL -O2 -mabi=eabi -mhard-float -msingle-float -o CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj /tmp/ccNvC6DT.s
+COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_6b305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b305.dir/link.txt --verbose=1
+/home/ankur/pspdev/bin/psp-gcc -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0  -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -Wl,-zmax-page-size=128 -v CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj -o cmTC_6b305   -L/home/ankur/pspdev/lib  -L/home/ankur/pspdev/psp/lib  -L/home/ankur/pspdev/psp/sdk/lib 
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-gcc
+COLLECT_LTO_WRAPPER=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-o' 'cmTC_6b305' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float' '-dumpdir' 'cmTC_6b305.'
+ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/collect2 -plugin /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/liblto_plugin.so -plugin-opt=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPmwFbs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lpthreadglue -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lcglue -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lpsputility -plugin-opt=-pass-through=-lpsprtc -plugin-opt=-pass-through=-lpspnet_inet -plugin-opt=-pass-through=-lpspnet_resolver -plugin-opt=-pass-through=-lpspsdk -plugin-opt=-pass-through=-lpspmodinfo -plugin-opt=-pass-through=-lpspuser -plugin-opt=-pass-through=-lpspkernel -plugin-opt=-pass-through=-lgcc -EL -G 0 -o cmTC_6b305 /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0 -L/home/ankur/pspdev/bin/../lib/gcc -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib -zmax-page-size=128 CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj -lgcc -lm --start-group -lpthreadglue -lpthread -lcglue -lc --end-group -lpsputility -lpsprtc -lpspnet_inet -lpspnet_resolver -lpspsdk -lpspmodinfo -lpspuser -lpspkernel -lgcc /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o
+/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -fresolution=/tmp/ccPmwFbs.res -flinker-output=exec /home/ankur/pspdev/psp/lib/libpthread.a@0x5e452 /home/ankur/pspdev/psp/lib/libpthread.a@0x60426 /home/ankur/pspdev/psp/lib/libpthread.a@0x6261a /home/ankur/pspdev/psp/lib/libpthread.a@0x64032 /home/ankur/pspdev/psp/lib/libpthread.a@0x1aae /home/ankur/pspdev/psp/lib/libpthread.a@0x4f92 /home/ankur/pspdev/psp/lib/libpthread.a@0x6f56 /home/ankur/pspdev/psp/lib/libpthread.a@0xb39e /home/ankur/pspdev/psp/lib/libpthread.a@0x19ac6 /home/ankur/pspdev/psp/lib/libpthread.a@0x1b8fa /home/ankur/pspdev/psp/lib/libpthread.a@0x262fe /home/ankur/pspdev/psp/lib/libpthread.a@0x52c56 /home/ankur/pspdev/psp/lib/libpthread.a@0x57036 /home/ankur/pspdev/psp/lib/libpthread.a@0x5a96a /home/ankur/pspdev/psp/lib/libpthread.a@0x5c3a2 /home/ankur/pspdev/psp/lib/libpthread.a@0x66286 /home/ankur/pspdev/psp/lib/libpthread.a@0x6773a /home/ankur/pspdev/psp/lib/libpthread.a@0x69bb2 /home/ankur/pspdev/psp/lib/libpthread.a@0x35c2 
+/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -fresolution=/tmp/ccPmwFbs.res -flinker-output=exec /home/ankur/pspdev/psp/lib/libpthread.a@0x5e452 /home/ankur/pspdev/psp/lib/libpthread.a@0x60426 /home/ankur/pspdev/psp/lib/libpthread.a@0x6261a /home/ankur/pspdev/psp/lib/libpthread.a@0x64032 /home/ankur/pspdev/psp/lib/libpthread.a@0x1aae /home/ankur/pspdev/psp/lib/libpthread.a@0x4f92 /home/ankur/pspdev/psp/lib/libpthread.a@0x6f56 /home/ankur/pspdev/psp/lib/libpthread.a@0xb39e /home/ankur/pspdev/psp/lib/libpthread.a@0x19ac6 /home/ankur/pspdev/psp/lib/libpthread.a@0x1b8fa /home/ankur/pspdev/psp/lib/libpthread.a@0x262fe /home/ankur/pspdev/psp/lib/libpthread.a@0x52c56 /home/ankur/pspdev/psp/lib/libpthread.a@0x57036 /home/ankur/pspdev/psp/lib/libpthread.a@0x5a96a /home/ankur/pspdev/psp/lib/libpthread.a@0x5c3a2 /home/ankur/pspdev/psp/lib/libpthread.a@0x66286 /home/ankur/pspdev/psp/lib/libpthread.a@0x6773a /home/ankur/pspdev/psp/lib/libpthread.a@0x69bb2 /home/ankur/pspdev/psp/lib/libpthread.a@0x35c2 
+/home/ankur/pspdev/bin/psp-gcc @/tmp/ccHVH0pH
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-gcc
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans-output-list=/tmp/ccX2N6i9.ltrans.out' '-fwpa' '-fresolution=/tmp/ccPmwFbs.res' '-flinker-output=exec'
+ /home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/lto1 -G 0 -G 0 -quiet -dumpbase ./cmTC_6b305.wpa -mhard-float -msingle-float -mhard-float -msingle-float -O3 -O2 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -fltrans-output-list=/tmp/ccX2N6i9.ltrans.out -fwpa -fresolution=/tmp/ccPmwFbs.res -flinker-output=exec @/tmp/ccjc8Mfk
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COMPILER_PATH=/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans-output-list=/tmp/ccX2N6i9.ltrans.out' '-fwpa' '-fresolution=/tmp/ccPmwFbs.res' '-flinker-output=exec' '-dumpdir' './cmTC_6b305.wpa.'
+/home/ankur/pspdev/bin/psp-gcc @/tmp/cc3BKSUI
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-gcc
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans' '-o' '/tmp/ccX2N6i9.ltrans0.ltrans.o'
+ /home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/lto1 -G 0 -G 0 -quiet -dumpbase ./cmTC_6b305.ltrans0.ltrans -mhard-float -msingle-float -mhard-float -msingle-float -O3 -O2 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -fltrans @/tmp/ccotAF1I -o /tmp/ccNTnJCz.s
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans' '-o' '/tmp/ccX2N6i9.ltrans0.ltrans.o'
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/as -G 0 -G 0 -EL -O2 -mabi=eabi -mhard-float -mhard-float -msingle-float -msingle-float -o /tmp/ccX2N6i9.ltrans0.ltrans.o /tmp/ccNTnJCz.s
+COMPILER_PATH=/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans' '-o' '/tmp/ccX2N6i9.ltrans0.ltrans.o' '-dumpdir' './cmTC_6b305.ltrans0.ltrans.'
+COLLECT_GCC_OPTIONS='-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-o' 'cmTC_6b305' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float' '-dumpdir' 'cmTC_6b305.'
+gmake[1]: Leaving directory '/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/ankur/pspdev/psp/sdk/include]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include]
+  end of search list found
+  collapse include dir [/home/ankur/pspdev/psp/sdk/include] ==> [/home/ankur/pspdev/psp/sdk/include]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/include]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/include-fixed]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include] ==> [/home/ankur/pspdev/psp/include]
+  implicit include dirs: [/home/ankur/pspdev/psp/sdk/include;/home/ankur/pspdev/lib/gcc/psp/11.2.0/include;/home/ankur/pspdev/lib/gcc/psp/11.2.0/include-fixed;/home/ankur/pspdev/psp/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(psp-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b305/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b305.dir/build.make CMakeFiles/cmTC_6b305.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/ankur/pspdev/bin/psp-gcc -DPSP -D__PSP__  -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0    -v -o CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ankur/pspdev/bin/psp-gcc]
+  ignore line: [Target: psp]
+  ignore line: [Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_6b305.dir/']
+  ignore line: [ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/cc1 -quiet -v -I /home/ankur/pspdev/psp/include -I /home/ankur/pspdev/psp/sdk/include -iprefix /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/ -DPSP=1 -D__PSP__=1 -D_PSP=1 -D__psp__=1 -D PSP -D __PSP__ -D PSP /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -G 0 -quiet -dumpdir CMakeFiles/cmTC_6b305.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mhard-float -msingle-float -O2 -version -o /tmp/ccNvC6DT.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (psp)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/psp/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/ankur/pspdev/psp/sdk/include]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (psp)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 154afed43caae206d6aca2cf9e425fb0]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_6b305.dir/']
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/as -G 0 -EL -O2 -mabi=eabi -mhard-float -msingle-float -o CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj /tmp/ccNvC6DT.s]
+  ignore line: [COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/]
+  ignore line: [LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_6b305]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b305.dir/link.txt --verbose=1]
+  ignore line: [/home/ankur/pspdev/bin/psp-gcc -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0  -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -Wl -zmax-page-size=128 -v CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj -o cmTC_6b305   -L/home/ankur/pspdev/lib  -L/home/ankur/pspdev/psp/lib  -L/home/ankur/pspdev/psp/sdk/lib ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ankur/pspdev/bin/psp-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper]
+  ignore line: [Target: psp]
+  ignore line: [Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/]
+  ignore line: [LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-o' 'cmTC_6b305' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float' '-dumpdir' 'cmTC_6b305.']
+  link line: [ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/collect2 -plugin /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/liblto_plugin.so -plugin-opt=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPmwFbs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lpthreadglue -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lcglue -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lpsputility -plugin-opt=-pass-through=-lpsprtc -plugin-opt=-pass-through=-lpspnet_inet -plugin-opt=-pass-through=-lpspnet_resolver -plugin-opt=-pass-through=-lpspsdk -plugin-opt=-pass-through=-lpspmodinfo -plugin-opt=-pass-through=-lpspuser -plugin-opt=-pass-through=-lpspkernel -plugin-opt=-pass-through=-lgcc -EL -G 0 -o cmTC_6b305 /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0 -L/home/ankur/pspdev/bin/../lib/gcc -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib -zmax-page-size=128 CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj -lgcc -lm --start-group -lpthreadglue -lpthread -lcglue -lc --end-group -lpsputility -lpsprtc -lpspnet_inet -lpspnet_resolver -lpspsdk -lpspmodinfo -lpspuser -lpspkernel -lgcc /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o]
+    arg [/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPmwFbs.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthreadglue] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lcglue] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpsputility] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpsprtc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspnet_inet] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspnet_resolver] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspsdk] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspmodinfo] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspuser] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspkernel] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-G] ==> ignore
+    arg [0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6b305] ==> ignore
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o]
+    arg [-L/home/ankur/pspdev/lib] ==> dir [/home/ankur/pspdev/lib]
+    arg [-L/home/ankur/pspdev/psp/lib] ==> dir [/home/ankur/pspdev/psp/lib]
+    arg [-L/home/ankur/pspdev/psp/sdk/lib] ==> dir [/home/ankur/pspdev/psp/sdk/lib]
+    arg [-L/home/ankur/pspdev/lib] ==> dir [/home/ankur/pspdev/lib]
+    arg [-L/home/ankur/pspdev/psp/lib] ==> dir [/home/ankur/pspdev/psp/lib]
+    arg [-L/home/ankur/pspdev/psp/sdk/lib] ==> dir [/home/ankur/pspdev/psp/sdk/lib]
+    arg [-L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0] ==> dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0]
+    arg [-L/home/ankur/pspdev/bin/../lib/gcc] ==> dir [/home/ankur/pspdev/bin/../lib/gcc]
+    arg [-L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib] ==> dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib]
+    arg [-zmax-page-size=128] ==> ignore
+    arg [CMakeFiles/cmTC_6b305.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lpthreadglue] ==> lib [pthreadglue]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lcglue] ==> lib [cglue]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [-lpsputility] ==> lib [psputility]
+    arg [-lpsprtc] ==> lib [psprtc]
+    arg [-lpspnet_inet] ==> lib [pspnet_inet]
+    arg [-lpspnet_resolver] ==> lib [pspnet_resolver]
+    arg [-lpspsdk] ==> lib [pspsdk]
+    arg [-lpspmodinfo] ==> lib [pspmodinfo]
+    arg [-lpspuser] ==> lib [pspuser]
+    arg [-lpspkernel] ==> lib [pspkernel]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o] ==> [/home/ankur/pspdev/psp/lib/crt0.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crti.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtbegin.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtend.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtn.o]
+  collapse library dir [/home/ankur/pspdev/lib] ==> [/home/ankur/pspdev/lib]
+  collapse library dir [/home/ankur/pspdev/psp/lib] ==> [/home/ankur/pspdev/psp/lib]
+  collapse library dir [/home/ankur/pspdev/psp/sdk/lib] ==> [/home/ankur/pspdev/psp/sdk/lib]
+  collapse library dir [/home/ankur/pspdev/lib] ==> [/home/ankur/pspdev/lib]
+  collapse library dir [/home/ankur/pspdev/psp/lib] ==> [/home/ankur/pspdev/psp/lib]
+  collapse library dir [/home/ankur/pspdev/psp/sdk/lib] ==> [/home/ankur/pspdev/psp/sdk/lib]
+  collapse library dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0]
+  collapse library dir [/home/ankur/pspdev/bin/../lib/gcc] ==> [/home/ankur/pspdev/lib/gcc]
+  collapse library dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib] ==> [/home/ankur/pspdev/psp/lib]
+  implicit libs: [gcc;m;pthreadglue;pthread;cglue;c;psputility;psprtc;pspnet_inet;pspnet_resolver;pspsdk;pspmodinfo;pspuser;pspkernel;gcc]
+  implicit objs: [/home/ankur/pspdev/psp/lib/crt0.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crti.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtbegin.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtend.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtn.o]
+  implicit dirs: [/home/ankur/pspdev/lib;/home/ankur/pspdev/psp/lib;/home/ankur/pspdev/psp/sdk/lib;/home/ankur/pspdev/lib/gcc/psp/11.2.0;/home/ankur/pspdev/lib/gcc]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b53e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b53e.dir/build.make CMakeFiles/cmTC_9b53e.dir/build
+gmake[1]: Entering directory '/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj
+/home/ankur/pspdev/bin/psp-g++ -DPSP -D__PSP__  -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0    -v -o CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-g++
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_9b53e.dir/'
+ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/cc1plus -quiet -v -I /home/ankur/pspdev/psp/include -I /home/ankur/pspdev/psp/sdk/include -iprefix /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/ -DPSP=1 -D__PSP__=1 -D_PSP=1 -D__psp__=1 -D PSP -D __PSP__ -D PSP /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -G 0 -quiet -dumpdir CMakeFiles/cmTC_9b53e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mhard-float -msingle-float -O2 -version -o /tmp/ccvr7ZPO.s
+GNU C++17 (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/sys-include"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/psp"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/backward"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include-fixed"
+ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/sys-include"
+ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include"
+ignoring duplicate directory "/home/ankur/pspdev/psp/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ankur/pspdev/psp/sdk/include
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/psp
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/backward
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 61a566b22e0033b82854ec75cd749995
+COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_9b53e.dir/'
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/as -G 0 -EL -O2 -mabi=eabi -mhard-float -msingle-float -o CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccvr7ZPO.s
+COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_9b53e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b53e.dir/link.txt --verbose=1
+/home/ankur/pspdev/bin/psp-g++ -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0  -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -Wl,-zmax-page-size=128 -v CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9b53e   -L/home/ankur/pspdev/lib  -L/home/ankur/pspdev/psp/lib  -L/home/ankur/pspdev/psp/sdk/lib 
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-g++
+COLLECT_LTO_WRAPPER=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-o' 'cmTC_9b53e' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float' '-dumpdir' 'cmTC_9b53e.'
+ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/collect2 -plugin /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/liblto_plugin.so -plugin-opt=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDhuxMT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lpthreadglue -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lcglue -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lpsputility -plugin-opt=-pass-through=-lpsprtc -plugin-opt=-pass-through=-lpspnet_inet -plugin-opt=-pass-through=-lpspnet_resolver -plugin-opt=-pass-through=-lpspsdk -plugin-opt=-pass-through=-lpspmodinfo -plugin-opt=-pass-through=-lpspuser -plugin-opt=-pass-through=-lpspkernel -plugin-opt=-pass-through=-lgcc -EL -G 0 -o cmTC_9b53e /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0 -L/home/ankur/pspdev/bin/../lib/gcc -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib -zmax-page-size=128 CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lm --start-group -lpthreadglue -lpthread -lcglue -lc --end-group -lpsputility -lpsprtc -lpspnet_inet -lpspnet_resolver -lpspsdk -lpspmodinfo -lpspuser -lpspkernel -lgcc /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o
+/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -fresolution=/tmp/ccDhuxMT.res -flinker-output=exec /home/ankur/pspdev/psp/lib/libpthread.a@0x5e452 /home/ankur/pspdev/psp/lib/libpthread.a@0x60426 /home/ankur/pspdev/psp/lib/libpthread.a@0x6261a /home/ankur/pspdev/psp/lib/libpthread.a@0x64032 /home/ankur/pspdev/psp/lib/libpthread.a@0x1aae /home/ankur/pspdev/psp/lib/libpthread.a@0x4f92 /home/ankur/pspdev/psp/lib/libpthread.a@0x6f56 /home/ankur/pspdev/psp/lib/libpthread.a@0xb39e /home/ankur/pspdev/psp/lib/libpthread.a@0x19ac6 /home/ankur/pspdev/psp/lib/libpthread.a@0x1b8fa /home/ankur/pspdev/psp/lib/libpthread.a@0x262fe /home/ankur/pspdev/psp/lib/libpthread.a@0x52c56 /home/ankur/pspdev/psp/lib/libpthread.a@0x57036 /home/ankur/pspdev/psp/lib/libpthread.a@0x5a96a /home/ankur/pspdev/psp/lib/libpthread.a@0x5c3a2 /home/ankur/pspdev/psp/lib/libpthread.a@0x66286 /home/ankur/pspdev/psp/lib/libpthread.a@0x6773a /home/ankur/pspdev/psp/lib/libpthread.a@0x69bb2 /home/ankur/pspdev/psp/lib/libpthread.a@0x35c2 
+/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -fresolution=/tmp/ccDhuxMT.res -flinker-output=exec /home/ankur/pspdev/psp/lib/libpthread.a@0x5e452 /home/ankur/pspdev/psp/lib/libpthread.a@0x60426 /home/ankur/pspdev/psp/lib/libpthread.a@0x6261a /home/ankur/pspdev/psp/lib/libpthread.a@0x64032 /home/ankur/pspdev/psp/lib/libpthread.a@0x1aae /home/ankur/pspdev/psp/lib/libpthread.a@0x4f92 /home/ankur/pspdev/psp/lib/libpthread.a@0x6f56 /home/ankur/pspdev/psp/lib/libpthread.a@0xb39e /home/ankur/pspdev/psp/lib/libpthread.a@0x19ac6 /home/ankur/pspdev/psp/lib/libpthread.a@0x1b8fa /home/ankur/pspdev/psp/lib/libpthread.a@0x262fe /home/ankur/pspdev/psp/lib/libpthread.a@0x52c56 /home/ankur/pspdev/psp/lib/libpthread.a@0x57036 /home/ankur/pspdev/psp/lib/libpthread.a@0x5a96a /home/ankur/pspdev/psp/lib/libpthread.a@0x5c3a2 /home/ankur/pspdev/psp/lib/libpthread.a@0x66286 /home/ankur/pspdev/psp/lib/libpthread.a@0x6773a /home/ankur/pspdev/psp/lib/libpthread.a@0x69bb2 /home/ankur/pspdev/psp/lib/libpthread.a@0x35c2 
+/home/ankur/pspdev/bin/psp-g++ @/tmp/ccmaCGGN
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-g++
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans-output-list=/tmp/ccFHqBay.ltrans.out' '-fwpa' '-fresolution=/tmp/ccDhuxMT.res' '-flinker-output=exec'
+ /home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/lto1 -G 0 -G 0 -quiet -dumpbase ./cmTC_9b53e.wpa -mhard-float -msingle-float -mhard-float -msingle-float -O3 -O2 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -fltrans-output-list=/tmp/ccFHqBay.ltrans.out -fwpa -fresolution=/tmp/ccDhuxMT.res -flinker-output=exec @/tmp/ccsgYhe2
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COMPILER_PATH=/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans-output-list=/tmp/ccFHqBay.ltrans.out' '-fwpa' '-fresolution=/tmp/ccDhuxMT.res' '-flinker-output=exec' '-dumpdir' './cmTC_9b53e.wpa.'
+/home/ankur/pspdev/bin/psp-g++ @/tmp/ccKav5H7
+Using built-in specs.
+COLLECT_GCC=/home/ankur/pspdev/bin/psp-g++
+Target: psp
+Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c,c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans' '-o' '/tmp/ccFHqBay.ltrans0.ltrans.o'
+ /home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/lto1 -G 0 -G 0 -quiet -dumpbase ./cmTC_9b53e.ltrans0.ltrans -mhard-float -msingle-float -mhard-float -msingle-float -O3 -O2 -version -fno-openmp -fno-openacc -fno-pie -fcf-protection=none -fltrans @/tmp/ccGnlMB7 -o /tmp/ccQr6JxF.s
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU GIMPLE (GCC) version 11.2.0 (psp)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans' '-o' '/tmp/ccFHqBay.ltrans0.ltrans.o'
+ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/as -G 0 -G 0 -EL -O2 -mabi=eabi -mhard-float -mhard-float -msingle-float -msingle-float -o /tmp/ccFHqBay.ltrans0.ltrans.o /tmp/ccQr6JxF.s
+COMPILER_PATH=/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/../../libexec/gcc/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/
+LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-protection=none' '-G' '0' '-mhard-float' '-msingle-float' '-O3' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float'   '-fltrans' '-o' '/tmp/ccFHqBay.ltrans0.ltrans.o' '-dumpdir' './cmTC_9b53e.ltrans0.ltrans.'
+COLLECT_GCC_OPTIONS='-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-o' 'cmTC_9b53e' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float' '-dumpdir' 'cmTC_9b53e.'
+gmake[1]: Leaving directory '/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/ankur/pspdev/psp/sdk/include]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/psp]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/backward]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed]
+    add: [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include]
+  end of search list found
+  collapse include dir [/home/ankur/pspdev/psp/sdk/include] ==> [/home/ankur/pspdev/psp/sdk/include]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0] ==> [/home/ankur/pspdev/psp/include/c++/11.2.0]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/psp] ==> [/home/ankur/pspdev/psp/include/c++/11.2.0/psp]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/backward] ==> [/home/ankur/pspdev/psp/include/c++/11.2.0/backward]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/include]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/include-fixed]
+  collapse include dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include] ==> [/home/ankur/pspdev/psp/include]
+  implicit include dirs: [/home/ankur/pspdev/psp/sdk/include;/home/ankur/pspdev/psp/include/c++/11.2.0;/home/ankur/pspdev/psp/include/c++/11.2.0/psp;/home/ankur/pspdev/psp/include/c++/11.2.0/backward;/home/ankur/pspdev/lib/gcc/psp/11.2.0/include;/home/ankur/pspdev/lib/gcc/psp/11.2.0/include-fixed;/home/ankur/pspdev/psp/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(psp-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b53e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b53e.dir/build.make CMakeFiles/cmTC_9b53e.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ankur/PSP_stuff/CMakeTut/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/ankur/pspdev/bin/psp-g++ -DPSP -D__PSP__  -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0    -v -o CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ankur/pspdev/bin/psp-g++]
+  ignore line: [Target: psp]
+  ignore line: [Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_9b53e.dir/']
+  ignore line: [ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/cc1plus -quiet -v -I /home/ankur/pspdev/psp/include -I /home/ankur/pspdev/psp/sdk/include -iprefix /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/ -DPSP=1 -D__PSP__=1 -D_PSP=1 -D__psp__=1 -D PSP -D __PSP__ -D PSP /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -G 0 -quiet -dumpdir CMakeFiles/cmTC_9b53e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mhard-float -msingle-float -O2 -version -o /tmp/ccvr7ZPO.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (psp)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/psp"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/bin/../lib/gcc/../../lib/gcc/psp/11.2.0/../../../../psp/include"]
+  ignore line: [ignoring duplicate directory "/home/ankur/pspdev/psp/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/ankur/pspdev/psp/sdk/include]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/psp]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include/c++/11.2.0/backward]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/include-fixed]
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (psp)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 61a566b22e0033b82854ec75cd749995]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_9b53e.dir/']
+  ignore line: [ /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/as -G 0 -EL -O2 -mabi=eabi -mhard-float -msingle-float -o CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccvr7ZPO.s]
+  ignore line: [COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/]
+  ignore line: [LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'PSP' '-D' '__PSP__' '-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-v' '-o' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mhard-float' '-msingle-float' '-dumpdir' 'CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_9b53e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b53e.dir/link.txt --verbose=1]
+  ignore line: [/home/ankur/pspdev/bin/psp-g++ -I/home/ankur/pspdev/psp/include -I/home/ankur/pspdev/psp/sdk/include -DPSP -O2 -G0  -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -Wl -zmax-page-size=128 -v CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9b53e   -L/home/ankur/pspdev/lib  -L/home/ankur/pspdev/psp/lib  -L/home/ankur/pspdev/psp/sdk/lib ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/ankur/pspdev/bin/psp-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper]
+  ignore line: [Target: psp]
+  ignore line: [Configured with: ../configure --quiet --prefix=/home/runner/work/pspdev/pspdev/pspdev --target=psp --enable-languages=c c++ --with-float=hard --with-newlib --disable-libssp --disable-multilib --enable-cxx-flags=-G0 --enable-threads=posix --silent]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../libexec/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/bin/]
+  ignore line: [LIBRARY_PATH=/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/:/home/ankur/pspdev/bin/../lib/gcc/:/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/ankur/pspdev/psp/include' '-I' '/home/ankur/pspdev/psp/sdk/include' '-D' 'PSP' '-O2' '-G' '0' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-v' '-o' 'cmTC_9b53e' '-L/home/ankur/pspdev/lib' '-L/home/ankur/pspdev/psp/lib' '-L/home/ankur/pspdev/psp/sdk/lib' '-mhard-float' '-msingle-float' '-dumpdir' 'cmTC_9b53e.']
+  link line: [ /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/collect2 -plugin /home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/liblto_plugin.so -plugin-opt=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDhuxMT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lpthreadglue -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lcglue -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lpsputility -plugin-opt=-pass-through=-lpsprtc -plugin-opt=-pass-through=-lpspnet_inet -plugin-opt=-pass-through=-lpspnet_resolver -plugin-opt=-pass-through=-lpspsdk -plugin-opt=-pass-through=-lpspmodinfo -plugin-opt=-pass-through=-lpspuser -plugin-opt=-pass-through=-lpspkernel -plugin-opt=-pass-through=-lgcc -EL -G 0 -o cmTC_9b53e /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/lib -L/home/ankur/pspdev/psp/lib -L/home/ankur/pspdev/psp/sdk/lib -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0 -L/home/ankur/pspdev/bin/../lib/gcc -L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib -zmax-page-size=128 CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lm --start-group -lpthreadglue -lpthread -lcglue -lc --end-group -lpsputility -lpsprtc -lpspnet_inet -lpspnet_resolver -lpspsdk -lpspmodinfo -lpspuser -lpspkernel -lgcc /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o /home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o]
+    arg [/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ankur/pspdev/bin/../libexec/gcc/psp/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDhuxMT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthreadglue] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lcglue] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpsputility] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpsprtc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspnet_inet] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspnet_resolver] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspsdk] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspmodinfo] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspuser] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpspkernel] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-G] ==> ignore
+    arg [0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9b53e] ==> ignore
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o]
+    arg [-L/home/ankur/pspdev/lib] ==> dir [/home/ankur/pspdev/lib]
+    arg [-L/home/ankur/pspdev/psp/lib] ==> dir [/home/ankur/pspdev/psp/lib]
+    arg [-L/home/ankur/pspdev/psp/sdk/lib] ==> dir [/home/ankur/pspdev/psp/sdk/lib]
+    arg [-L/home/ankur/pspdev/lib] ==> dir [/home/ankur/pspdev/lib]
+    arg [-L/home/ankur/pspdev/psp/lib] ==> dir [/home/ankur/pspdev/psp/lib]
+    arg [-L/home/ankur/pspdev/psp/sdk/lib] ==> dir [/home/ankur/pspdev/psp/sdk/lib]
+    arg [-L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0] ==> dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0]
+    arg [-L/home/ankur/pspdev/bin/../lib/gcc] ==> dir [/home/ankur/pspdev/bin/../lib/gcc]
+    arg [-L/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib] ==> dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib]
+    arg [-zmax-page-size=128] ==> ignore
+    arg [CMakeFiles/cmTC_9b53e.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lpthreadglue] ==> lib [pthreadglue]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lcglue] ==> lib [cglue]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [-lpsputility] ==> lib [psputility]
+    arg [-lpsprtc] ==> lib [psprtc]
+    arg [-lpspnet_inet] ==> lib [pspnet_inet]
+    arg [-lpspnet_resolver] ==> lib [pspnet_resolver]
+    arg [-lpspsdk] ==> lib [pspsdk]
+    arg [-lpspmodinfo] ==> lib [pspmodinfo]
+    arg [-lpspuser] ==> lib [pspuser]
+    arg [-lpspkernel] ==> lib [pspkernel]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o]
+    arg [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o] ==> obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib/crt0.o] ==> [/home/ankur/pspdev/psp/lib/crt0.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crti.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crti.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtbegin.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtbegin.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtend.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtend.o]
+  collapse obj [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/crtn.o] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtn.o]
+  collapse library dir [/home/ankur/pspdev/lib] ==> [/home/ankur/pspdev/lib]
+  collapse library dir [/home/ankur/pspdev/psp/lib] ==> [/home/ankur/pspdev/psp/lib]
+  collapse library dir [/home/ankur/pspdev/psp/sdk/lib] ==> [/home/ankur/pspdev/psp/sdk/lib]
+  collapse library dir [/home/ankur/pspdev/lib] ==> [/home/ankur/pspdev/lib]
+  collapse library dir [/home/ankur/pspdev/psp/lib] ==> [/home/ankur/pspdev/psp/lib]
+  collapse library dir [/home/ankur/pspdev/psp/sdk/lib] ==> [/home/ankur/pspdev/psp/sdk/lib]
+  collapse library dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0] ==> [/home/ankur/pspdev/lib/gcc/psp/11.2.0]
+  collapse library dir [/home/ankur/pspdev/bin/../lib/gcc] ==> [/home/ankur/pspdev/lib/gcc]
+  collapse library dir [/home/ankur/pspdev/bin/../lib/gcc/psp/11.2.0/../../../../psp/lib] ==> [/home/ankur/pspdev/psp/lib]
+  implicit libs: [stdc++;m;gcc;m;pthreadglue;pthread;cglue;c;psputility;psprtc;pspnet_inet;pspnet_resolver;pspsdk;pspmodinfo;pspuser;pspkernel;gcc]
+  implicit objs: [/home/ankur/pspdev/psp/lib/crt0.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crti.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtbegin.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtend.o;/home/ankur/pspdev/lib/gcc/psp/11.2.0/crtn.o]
+  implicit dirs: [/home/ankur/pspdev/lib;/home/ankur/pspdev/psp/lib;/home/ankur/pspdev/psp/sdk/lib;/home/ankur/pspdev/lib/gcc/psp/11.2.0;/home/ankur/pspdev/lib/gcc]
+  implicit fwks: []
+
+

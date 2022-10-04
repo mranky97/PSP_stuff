@@ -1,0 +1,3 @@
+/home/ankur/PSP_stuff/HelloWorld/build/CMakeFiles/hello.dir
+/home/ankur/PSP_stuff/HelloWorld/build/CMakeFiles/edit_cache.dir
+/home/ankur/PSP_stuff/HelloWorld/build/CMakeFiles/rebuild_cache.dir
